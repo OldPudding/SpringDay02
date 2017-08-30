@@ -13,4 +13,7 @@
 		到类，方法，属性上面去扫描是否有注解
 	-->
 	<context:component-scan base-package="cn.itcast.anno,cn.itcast.spec"></context:component-scan>
+	<bean id="bookService" class="cn.itcast.spec.BookService"></bean>
+	<bean id="bookDAO" class="cn.itcast.spec.BookDAO"></bean>
+	<bean id="orderDAO" class="cn.itcast.spec.OrderDAO"></bean>
 </beans>
